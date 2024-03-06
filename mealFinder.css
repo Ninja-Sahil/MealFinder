@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #2d2013;
+    color: #fff;
+    font-family: verdana;
+}
+
+header h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 27px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.flex form{
+    display: flex;
+}
+
+.flex form input,button{
+    font-size: 15px;
+    padding: 6px 8px;
+    border: 0;
+    outline: 0;
+    font-weight: normal;
+}
+
+.flex form input{
+    width: 300px;
+    max-width: 300px;
+}
+
+.flex>button{
+    margin: 0 0 0 8px;
+}
+
+.flex button:hover{
+    background: #dcdcdc;
+}
+
+main{
+    margin: 30px 20px;
+}
+
+main h2{
+    text-align: center;
+    margin : 30px 0;
+}
+
+main .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap : 20px 0;
+}
+
+main .container span{
+    width: 24%;
+}
+
+main .container span img{
+    width: 100%;
+}
+
+.container span p span{
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: #dcdcdc;
+    margin: 8px 0;
+    text-align: center;
+    font-size: 17px;
+}
+
+.hide{
+    display: none;
+}
+
+.nothide{
+    display: block;
+}
+
+section{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section h2{
+    margin: 15px ;
+    text-align: center;
+}
+
+section img{
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+section h2 span{
+    font-size: 14px;
+    font-weight: 100;
+    display: inline-block;
+    padding: 0 6px;
+}
+
+section p{
+    text-align: justify;
+    padding: 10px 0;
+}
+
+section h3{
+    text-align: center;
+    margin: 10px 0;
+}
+
+section li{
+    background: #fff;
+    color: #000;
+    display: inline-block;
+    border-radius: 3px 8px;
+    margin: 4px;
+    padding: 4px;
+    list-style-type: none;
+}
+
+
